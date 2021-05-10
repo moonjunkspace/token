@@ -23,3 +23,6 @@ Roadmap:
 
 But the best comes when you don´t expect it...
 HODL and you will be rewarded 50 % of your Holdings on DEADLINEDay (6 Months after DXsales finaization)
+
+Telegram: https://t.me/moonjunkspace
+Website: https://moonjunk.space
