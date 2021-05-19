@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at BscScan.com on 2021-05-09
-*/
-
 pragma solidity 0.6.12;
 // SPDX-License-Identifier: Unlicensed
 interface IBEP20 {
@@ -353,10 +349,10 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = "MoonJunk";
+    _name = "https://moonjunk.space";
     _symbol = "JUNK";
-    _decimals = 18;
-    _totalSupply = 10000000000000000000000000000000;
+    _decimals = 9;
+    _totalSupply = 100000000000000000000000000;
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
@@ -365,10 +361,10 @@ contract BEP20Token is Context, IBEP20, Ownable {
     
   }
     
-    uint256 public _taxFee = 5;
+    uint256 public _taxFee = 3;
     uint256 private _previousTaxFee = _taxFee;
     
-    uint256 public _liquidityFee = 3;
+    uint256 public _liquidityFee = 4;
     uint256 private _previousLiquidityFee = _liquidityFee;
     
   /**
